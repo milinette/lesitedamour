@@ -1,0 +1,52 @@
+body {
+    font-family: 'Comic Sans MS', cursive; /* Police festive */
+    font-size: 1.6rem; /* Taille de police plus grande pour l'effet festif */
+    background-color: #FFFAF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('assets/fond_noel.avif'); /* Image de fond de Noël */
+    background-size: cover;
+}
+
+#popup {
+    background-color: #FFFFFF;
+    border: 3px solid #8B0000;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#popup p {
+    font-size: 1.5em; /* Taille de police agrandie */
+}
+
+#popup button {
+    margin: 10px;
+    padding: 15px 25px; /* Taille des boutons plus grande */
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#oui {
+    background-color: #228B22; /* Vert */
+    color: white;
+}
+
+#non {
+    background-color: #B22222; /* Rouge */
+    color: white;
+}
+
+#gif-secret {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
